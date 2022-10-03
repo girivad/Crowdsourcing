@@ -8,7 +8,7 @@ Implements the Expectation-Maximization Algorithm from the 1979 paper "Maximum L
 
 Input: Accepts an $I \times J \times K$ tensor N, where $N_{ijk}$ is the number of times worker $k$ labels task $i$ with label $j$ ( $I$ is the total number of tasks, $J$ the number of labels, $K$ the number of workers).
 
-Outputs: Produces the estimated label distribution for each task as well as a discretized vector with the best label for each task.
+Outputs: Produces the estimated label distribution for each task as an $I \times J$ matrix as well as a discretized $I$-vector with the best label for each task.
 
 ### Configuration Parameters:
 
