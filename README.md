@@ -6,7 +6,7 @@ This repository contains vectorized and efficient implementations of multiple al
 
 Implements the Expectation-Maximization Algorithm from the 1979 paper "Maximum Likelihood Estimation of Observer Error Rates Using the EM Algorithm" (A.P. Dawid and A.M. Skene).
 
-Input: Accepts an $I \times J \times K$ tensor N, where $N_{ijk}$ is the number of times worker $k$ labels task $i$ with label $j$ (I is the total number of tasks, J the number of labels, K the number of workers).
+Input: Accepts an $I \times J \times K$ tensor N, where $N_{ijk}$ is the number of times worker $k$ labels task $i$ with label $j$ ($I$ is the total number of tasks, $J$ the number of labels, $K$ the number of workers).
 
 Outputs: Produces the estimated label distribution for each task as well as a discretized vector with the best label for each task.
 
