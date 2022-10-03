@@ -1,6 +1,6 @@
 # Crowdsourcing: Ground-Truth Inference Algorithms
 
-This repository contains vectorized and efficient implementations of multiple algorithms for crowdsourced data, particularly for inferring the ground truth from crowdsourced labels.
+This repository contains vectorized and efficient implementations of algorithms for crowdsourced data in NumPy, particularly for inferring the ground truth from crowdsourced labels.
 
 ## **Dawid/Skene**
 
