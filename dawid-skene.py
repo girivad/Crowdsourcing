@@ -17,7 +17,7 @@ def smooth(data, method, coeff):
     print("Unknown Method " + method + ", returning unchanged data by default.")
     return data
 
-def dawid_skene(N, max_iter = 1000, collapse = C_step, check_convergence = False, tol = 0.001, prior = 1/2, smoothing = "Laplace", C = False):
+def dawid_skene(N, max_iter = 1000, collapse = C_step, check_convergence = False, tol = 0.001, smoothing = "Laplace", C = False):
 
   N = N.astype(np.float64)
   I, J, K = np.shape(N)
