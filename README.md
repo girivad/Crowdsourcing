@@ -9,4 +9,4 @@ Implements the Expectation-Maximization Algorithm from the 1979 paper "Maximum L
 Input: Accepts an IxJxK tensor N, where $N_{ijk}$ is the number of times worker k labels task i with label j
 Outputs: Produces the estimated label distribution for each task as well as a discretized vector with the best label for each task.
 
-(Work done at Professor David T. Lee's Tech4Good Lab at UC Santa Cruz; Thank you for letting me build on this!)
+*(Work done at Professor David T. Lee's Tech4Good Lab at UC Santa Cruz; Thank you for letting me build on this!)*
