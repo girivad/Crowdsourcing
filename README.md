@@ -16,7 +16,7 @@ Outputs: Produces the estimated label distribution for each task as an $I \times
 - *collapse*: Any function to post-process the label-distribution at each estimation. The default parameter is the provided function *C_Step* that assigns all the probability to the highest-probability label.
 -  *check_convergence*: True/False; whether to terminate upon convergence of estimates or not. **(Default: False)**.
 -  *tol*: Maximum difference between estimates not considered convergence. **(Default: 0.001)**
--  *smoothing*: The method of smoothing used for the confusion matrix. **(Default: Laplace)**. Currently, only Laplace Smoothing is implemented, other forms may be implemented soon if useful. 
+-  *smoothing*: The method of smoothing used for the confusion matrix. **(Default: Laplace)**. *Currently, only Laplace Smoothing is implemented, other forms may be implemented soon if useful.* 
 -  *C*: True/False; Indicates whether a 'collapse' step is to be applied **(Default: False)**.
 
 *(Work done at Professor David T. Lee's Tech4Good Lab at UC Santa Cruz; Thank you for letting me build on this!)*
